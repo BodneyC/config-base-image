@@ -30,6 +30,6 @@ pacman --noconfirm -S \
 # unzip VictorMono.zip -d /usr/share/fonts/TTF/
 # fc-cache -fv
 
-ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime
+#ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime
 
 set +x

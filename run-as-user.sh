@@ -66,7 +66,7 @@ yes | ./softlink-config.sh || echo "Not root"
 
 cd "$HOME/.config/coc/extensions" && yarn
 
-sed -i 's/REVERSE=.*/REVERSE="\\x1b\[3m\\x1b\[1m/' \
+sed -i 's/REVERSE=.*/REVERSE="\\x1b\[3m\\x1b\[1m"/' \
   "$HOME/.local/share/nvim/plugged/fzf.vim/bin/preview.sh"
 
 ### Rem
